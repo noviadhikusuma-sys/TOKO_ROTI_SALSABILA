@@ -1,0 +1,14 @@
+<svg width="1200" height="900" viewBox="0 0 1200 900" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="900" rx="48" fill="#F7EBDC"/>
+  <rect x="70" y="70" width="1060" height="760" rx="40" fill="#FFF8EF"/>
+  <ellipse cx="600" cy="705" rx="285" ry="62" fill="#E7D0B6"/>
+  <rect x="290" y="315" width="620" height="210" rx="105" fill="#D69B61"/>
+  <rect x="330" y="345" width="540" height="150" rx="75" fill="#F3D0A3"/>
+  <circle cx="385" cy="420" r="58" fill="#8B4F2D"/>
+  <circle cx="508" cy="420" r="58" fill="#8B4F2D"/>
+  <circle cx="631" cy="420" r="58" fill="#8B4F2D"/>
+  <circle cx="754" cy="420" r="58" fill="#8B4F2D"/>
+  <circle cx="815" cy="420" r="30" fill="#8B4F2D"/>
+  <rect x="360" y="585" width="480" height="88" rx="18" fill="#B15A2E"/>
+  <text x="600" y="640" text-anchor="middle" fill="#FFF8EF" font-size="46" font-family="Georgia, serif" font-weight="700">Abon Gulung Solo</text>
+</svg>

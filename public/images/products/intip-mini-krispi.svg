@@ -1,0 +1,14 @@
+<svg width="1200" height="900" viewBox="0 0 1200 900" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="900" rx="48" fill="#F8EFD8"/>
+  <rect x="70" y="70" width="1060" height="760" rx="40" fill="#FFF9F0"/>
+  <ellipse cx="600" cy="705" rx="290" ry="62" fill="#EAD9B0"/>
+  <circle cx="450" cy="430" r="135" fill="#D59337"/>
+  <circle cx="600" cy="375" r="140" fill="#E1A64A"/>
+  <circle cx="760" cy="445" r="130" fill="#D0852F"/>
+  <circle cx="420" cy="400" r="18" fill="#F7E0A1"/>
+  <circle cx="550" cy="340" r="22" fill="#F7E0A1"/>
+  <circle cx="650" cy="395" r="15" fill="#F7E0A1"/>
+  <circle cx="790" cy="420" r="18" fill="#F7E0A1"/>
+  <rect x="325" y="585" width="550" height="88" rx="18" fill="#A85424"/>
+  <text x="600" y="640" text-anchor="middle" fill="#FFF8EF" font-size="46" font-family="Georgia, serif" font-weight="700">Intip Mini Krispi</text>
+</svg>

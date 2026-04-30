@@ -1,0 +1,11 @@
+<svg width="1200" height="900" viewBox="0 0 1200 900" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="900" rx="48" fill="#F9E5DA"/>
+  <rect x="70" y="70" width="1060" height="760" rx="40" fill="#FFF9F5"/>
+  <ellipse cx="600" cy="710" rx="290" ry="60" fill="#EDD0C0"/>
+  <path d="M340 500C340 430 390 365 468 355C540 346 577 405 586 465C595 528 648 572 717 556C774 543 823 492 848 430C875 363 949 365 977 416C1002 463 994 531 956 581C915 635 856 669 789 678C676 692 602 631 556 571C502 499 441 485 403 505C377 519 340 527 340 500Z" fill="#D65B2C"/>
+  <path d="M365 468C365 426 395 385 444 379C488 374 511 409 518 445C525 483 556 510 599 500C634 492 665 461 681 424C698 384 744 385 761 416C776 444 771 485 747 515C721 550 684 571 644 576C576 584 531 547 503 512C471 469 434 461 411 473C394 481 365 485 365 468Z" fill="#F09B42"/>
+  <circle cx="846" cy="320" r="72" fill="#B92F1F"/>
+  <path d="M846 225L861 278L914 293L861 308L846 361L831 308L778 293L831 278L846 225Z" fill="#FFD36A"/>
+  <rect x="280" y="585" width="640" height="88" rx="18" fill="#8E2E1B"/>
+  <text x="600" y="640" text-anchor="middle" fill="#FFF8EF" font-size="44" font-family="Georgia, serif" font-weight="700">Keripik Cakar Pedas</text>
+</svg>

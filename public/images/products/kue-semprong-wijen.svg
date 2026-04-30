@@ -1,0 +1,18 @@
+<svg width="1200" height="900" viewBox="0 0 1200 900" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="900" rx="48" fill="#F7ECDD"/>
+  <rect x="70" y="70" width="1060" height="760" rx="40" fill="#FFF9F0"/>
+  <ellipse cx="600" cy="710" rx="295" ry="60" fill="#E7D3B7"/>
+  <g transform="translate(300 260)">
+    <rect x="0" y="180" width="420" height="72" rx="20" transform="rotate(-24 0 180)" fill="#D8A25A"/>
+    <rect x="120" y="95" width="420" height="72" rx="20" transform="rotate(12 120 95)" fill="#E2B16B"/>
+    <rect x="180" y="250" width="420" height="72" rx="20" transform="rotate(-8 180 250)" fill="#C98C45"/>
+    <circle cx="134" cy="155" r="8" fill="#FFF0CC"/>
+    <circle cx="224" cy="140" r="8" fill="#FFF0CC"/>
+    <circle cx="320" cy="188" r="8" fill="#FFF0CC"/>
+    <circle cx="396" cy="131" r="8" fill="#FFF0CC"/>
+    <circle cx="420" cy="290" r="8" fill="#FFF0CC"/>
+    <circle cx="535" cy="230" r="8" fill="#FFF0CC"/>
+  </g>
+  <rect x="280" y="585" width="640" height="88" rx="18" fill="#A66231"/>
+  <text x="600" y="640" text-anchor="middle" fill="#FFF8EF" font-size="44" font-family="Georgia, serif" font-weight="700">Kue Semprong Wijen</text>
+</svg>
