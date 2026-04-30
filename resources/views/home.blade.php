@@ -3,7 +3,9 @@
 @section('content')
     <section class="hero">
         <div>
-            <img src="{{ asset('images/hero/storefront-snack.svg') }}" alt="Banner Rati Salsabila Snack" style="border-radius: 22px; margin-bottom: 24px; box-shadow: 0 16px 40px rgba(191,91,44,0.10);">
+            <div style="margin-bottom: 24px; padding: 18px; border-radius: 26px; background: linear-gradient(180deg, rgba(255,255,255,0.10), rgba(255,255,255,0.04)); border: 1px solid rgba(255,255,255,0.10); display: inline-flex;">
+                <img src="{{ asset('images/brand/salsa-logo.png') }}" alt="Logo Rati Salsabila Snack" style="width: min(100%, 360px); border-radius: 50%; box-shadow: 0 18px 44px rgba(0,0,0,0.28); background: #fff8ef;">
+            </div>
             <span class="hero-badge">Camilan Khas Solo</span>
             <h1 style="margin-top: 10px;">Oleh-oleh Solo yang dikemas cantik, praktis dibawa, dan cocok untuk hadiah.</h1>
             <p class="lead">

@@ -60,8 +60,27 @@
             backdrop-filter: blur(16px);
             box-shadow: var(--shadow);
         }
-        .brand { font-size: 1.35rem; font-weight: 700; letter-spacing: 0.04em; font-family: 'Lora', Georgia, serif; }
+        .brand {
+            display: inline-flex;
+            align-items: center;
+            gap: 14px;
+            font-size: 1.35rem;
+            font-weight: 700;
+            letter-spacing: 0.04em;
+            font-family: 'Lora', Georgia, serif;
+        }
         .brand small { display: block; font-size: 0.72rem; color: rgba(255, 211, 164, 0.68); letter-spacing: 0.16em; text-transform: uppercase; }
+        .brand-copy { display: flex; flex-direction: column; gap: 2px; }
+        .brand-logo {
+            width: 66px;
+            height: 66px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 2px solid rgba(255, 255, 255, 0.16);
+            box-shadow: 0 10px 24px rgba(0, 0, 0, 0.28);
+            background: #fff6ee;
+            flex-shrink: 0;
+        }
         .nav-links, .actions, .badge-row { display: flex; gap: 10px; flex-wrap: wrap; }
         .pill, button.pill {
             display: inline-flex; align-items: center; justify-content: center;
@@ -188,8 +207,11 @@
         <div class="eyebrow">Snack khas Solo untuk oleh-oleh, hampers, dan pesanan keluarga</div>
         <nav class="nav">
             <a class="brand" href="{{ route('home') }}">
-                Rati Salsabila Snack
-                <small>Oleh-oleh Solo</small>
+                <img class="brand-logo" src="{{ asset('images/brand/salsa-logo.png') }}" alt="Logo Rati Salsabila Snack">
+                <span class="brand-copy">
+                    <span>Rati Salsabila Snack</span>
+                    <small>Oleh-oleh Solo</small>
+                </span>
             </a>
             <div class="nav-links">
                 <a class="pill" href="{{ route('home') }}">Beranda</a>
