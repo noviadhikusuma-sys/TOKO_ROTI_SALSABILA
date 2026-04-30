@@ -1,18 +1,41 @@
 <svg width="1200" height="900" viewBox="0 0 1200 900" fill="none" xmlns="http://www.w3.org/2000/svg">
-  <rect width="1200" height="900" rx="48" fill="#F7ECDD"/>
-  <rect x="70" y="70" width="1060" height="760" rx="40" fill="#FFF9F0"/>
-  <ellipse cx="600" cy="710" rx="295" ry="60" fill="#E7D3B7"/>
-  <g transform="translate(300 260)">
-    <rect x="0" y="180" width="420" height="72" rx="20" transform="rotate(-24 0 180)" fill="#D8A25A"/>
-    <rect x="120" y="95" width="420" height="72" rx="20" transform="rotate(12 120 95)" fill="#E2B16B"/>
-    <rect x="180" y="250" width="420" height="72" rx="20" transform="rotate(-8 180 250)" fill="#C98C45"/>
-    <circle cx="134" cy="155" r="8" fill="#FFF0CC"/>
-    <circle cx="224" cy="140" r="8" fill="#FFF0CC"/>
-    <circle cx="320" cy="188" r="8" fill="#FFF0CC"/>
-    <circle cx="396" cy="131" r="8" fill="#FFF0CC"/>
-    <circle cx="420" cy="290" r="8" fill="#FFF0CC"/>
-    <circle cx="535" cy="230" r="8" fill="#FFF0CC"/>
+  <rect width="1200" height="900" rx="48" fill="#F4E7D9"/>
+  <rect x="56" y="56" width="1088" height="788" rx="42" fill="#FFF9F0"/>
+  <ellipse cx="600" cy="728" rx="318" ry="70" fill="#E5D3BE"/>
+  <ellipse cx="600" cy="456" rx="300" ry="220" fill="#F2E3D1"/>
+  <ellipse cx="600" cy="456" rx="268" ry="192" fill="#FBF3E8"/>
+  <g transform="translate(322 272)">
+    <g transform="rotate(-18 132 156)">
+      <rect x="0" y="116" width="330" height="82" rx="28" fill="#D29954"/>
+      <rect x="24" y="128" width="282" height="58" rx="20" fill="#E8B972"/>
+      <circle cx="64" cy="144" r="6" fill="#FFF2CC"/>
+      <circle cx="98" cy="168" r="6" fill="#FFF2CC"/>
+      <circle cx="132" cy="145" r="6" fill="#FFF2CC"/>
+      <circle cx="180" cy="170" r="6" fill="#FFF2CC"/>
+      <circle cx="227" cy="148" r="6" fill="#FFF2CC"/>
+      <circle cx="267" cy="169" r="6" fill="#FFF2CC"/>
+    </g>
+    <g transform="translate(110 34) rotate(7 132 156)">
+      <rect x="0" y="116" width="330" height="82" rx="28" fill="#CC8C43"/>
+      <rect x="24" y="128" width="282" height="58" rx="20" fill="#E4AD63"/>
+      <circle cx="68" cy="147" r="6" fill="#FFF2CC"/>
+      <circle cx="104" cy="169" r="6" fill="#FFF2CC"/>
+      <circle cx="148" cy="148" r="6" fill="#FFF2CC"/>
+      <circle cx="198" cy="167" r="6" fill="#FFF2CC"/>
+      <circle cx="242" cy="149" r="6" fill="#FFF2CC"/>
+      <circle cx="276" cy="165" r="6" fill="#FFF2CC"/>
+    </g>
+    <g transform="translate(180 156) rotate(-4 132 156)">
+      <rect x="0" y="116" width="330" height="82" rx="28" fill="#BD7E39"/>
+      <rect x="24" y="128" width="282" height="58" rx="20" fill="#DDA55A"/>
+      <circle cx="69" cy="148" r="6" fill="#FFF2CC"/>
+      <circle cx="118" cy="166" r="6" fill="#FFF2CC"/>
+      <circle cx="156" cy="147" r="6" fill="#FFF2CC"/>
+      <circle cx="206" cy="169" r="6" fill="#FFF2CC"/>
+      <circle cx="250" cy="149" r="6" fill="#FFF2CC"/>
+      <circle cx="286" cy="166" r="6" fill="#FFF2CC"/>
+    </g>
   </g>
-  <rect x="280" y="585" width="640" height="88" rx="18" fill="#A66231"/>
-  <text x="600" y="640" text-anchor="middle" fill="#FFF8EF" font-size="44" font-family="Georgia, serif" font-weight="700">Kue Semprong Wijen</text>
+  <path d="M390 310C417 292 454 283 500 283" stroke="#D7C1A1" stroke-width="10" stroke-linecap="round"/>
+  <path d="M784 595C819 599 851 613 878 639" stroke="#D7C1A1" stroke-width="10" stroke-linecap="round"/>
 </svg>

@@ -1,11 +1,20 @@
 <svg width="1200" height="900" viewBox="0 0 1200 900" fill="none" xmlns="http://www.w3.org/2000/svg">
-  <rect width="1200" height="900" rx="48" fill="#F9E5DA"/>
-  <rect x="70" y="70" width="1060" height="760" rx="40" fill="#FFF9F5"/>
-  <ellipse cx="600" cy="710" rx="290" ry="60" fill="#EDD0C0"/>
-  <path d="M340 500C340 430 390 365 468 355C540 346 577 405 586 465C595 528 648 572 717 556C774 543 823 492 848 430C875 363 949 365 977 416C1002 463 994 531 956 581C915 635 856 669 789 678C676 692 602 631 556 571C502 499 441 485 403 505C377 519 340 527 340 500Z" fill="#D65B2C"/>
-  <path d="M365 468C365 426 395 385 444 379C488 374 511 409 518 445C525 483 556 510 599 500C634 492 665 461 681 424C698 384 744 385 761 416C776 444 771 485 747 515C721 550 684 571 644 576C576 584 531 547 503 512C471 469 434 461 411 473C394 481 365 485 365 468Z" fill="#F09B42"/>
-  <circle cx="846" cy="320" r="72" fill="#B92F1F"/>
-  <path d="M846 225L861 278L914 293L861 308L846 361L831 308L778 293L831 278L846 225Z" fill="#FFD36A"/>
-  <rect x="280" y="585" width="640" height="88" rx="18" fill="#8E2E1B"/>
-  <text x="600" y="640" text-anchor="middle" fill="#FFF8EF" font-size="44" font-family="Georgia, serif" font-weight="700">Keripik Cakar Pedas</text>
+  <rect width="1200" height="900" rx="48" fill="#F5E2DA"/>
+  <rect x="56" y="56" width="1088" height="788" rx="42" fill="#FFF7F2"/>
+  <ellipse cx="600" cy="728" rx="320" ry="70" fill="#E5CDC5"/>
+  <ellipse cx="600" cy="452" rx="295" ry="220" fill="#F0DDD6"/>
+  <ellipse cx="600" cy="452" rx="265" ry="192" fill="#FBF3F0"/>
+  <g transform="translate(340 284)">
+    <path d="M0 218C0 168 29 129 81 116C127 104 172 125 195 172C217 216 259 238 304 224C340 212 370 182 378 143C388 100 424 74 467 82C511 91 532 135 524 184C515 241 483 288 430 314C342 357 260 341 197 295C147 259 112 244 79 246C46 248 0 252 0 218Z" fill="#D95A30"/>
+    <path d="M37 205C37 169 59 142 95 133C130 123 161 138 179 172C198 209 230 224 264 215C292 207 315 185 321 155C328 125 352 107 380 112C411 117 427 148 421 182C413 226 387 263 349 282C286 316 229 305 184 272C149 247 125 237 100 238C74 239 37 240 37 205Z" fill="#F29A49"/>
+    <path d="M236 88C252 72 275 62 300 62C333 62 354 74 370 100" stroke="#A33E22" stroke-width="18" stroke-linecap="round"/>
+    <path d="M172 104C188 88 212 79 237 79C262 79 285 89 302 107" stroke="#B34A28" stroke-width="16" stroke-linecap="round"/>
+    <path d="M115 130C132 115 156 106 182 106C204 106 226 113 243 126" stroke="#C95C2F" stroke-width="14" stroke-linecap="round"/>
+  </g>
+  <g transform="translate(836 230)">
+    <path d="M43 0C65 47 87 73 132 87C84 99 57 126 43 172C27 126 4 99 -44 87C0 75 22 49 43 0Z" fill="#F5BE4A"/>
+    <circle cx="43" cy="87" r="68" fill="#BD2E22" fill-opacity="0.92"/>
+    <path d="M43 23C56 52 75 72 104 82C77 92 58 111 43 151C30 112 12 93 -18 82C10 72 27 52 43 23Z" fill="#FFD975"/>
+  </g>
+  <path d="M844 289C873 283 899 291 920 312" stroke="#5D9C56" stroke-width="10" stroke-linecap="round"/>
 </svg>
