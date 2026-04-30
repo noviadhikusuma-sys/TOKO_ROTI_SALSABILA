@@ -1,4 +1,4 @@
-@extends('layouts.app', ['title' => $product->name . ' | Ratisabilla Snack'])
+@extends('layouts.app', ['title' => $product->name . ' | Rati Salsabila Snack'])
 
 @section('content')
     <section class="section">

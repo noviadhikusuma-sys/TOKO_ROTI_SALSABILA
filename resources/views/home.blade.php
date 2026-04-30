@@ -1,13 +1,13 @@
-@extends('layouts.app', ['title' => 'Ratisabilla Snack | Oleh-oleh Solo'])
+@extends('layouts.app', ['title' => 'Rati Salsabila Snack | Oleh-oleh Solo'])
 
 @section('content')
     <section class="hero">
         <div>
-            <img src="{{ asset('images/hero/storefront-snack.svg') }}" alt="Banner Ratisabilla Snack" style="border-radius: 22px; margin-bottom: 24px; box-shadow: 0 16px 40px rgba(191,91,44,0.10);">
+            <img src="{{ asset('images/hero/storefront-snack.svg') }}" alt="Banner Rati Salsabila Snack" style="border-radius: 22px; margin-bottom: 24px; box-shadow: 0 16px 40px rgba(191,91,44,0.10);">
             <span class="hero-badge">Camilan Khas Solo</span>
             <h1 style="margin-top: 10px;">Oleh-oleh Solo yang dikemas cantik, praktis dibawa, dan cocok untuk hadiah.</h1>
             <p class="lead">
-                Ratisabilla Snack menghadirkan pilihan snack dan kue kering khas Solo untuk wisatawan, keluarga, kantor, dan reseller.
+                Rati Salsabila Snack menghadirkan pilihan snack dan kue kering khas Solo untuk wisatawan, keluarga, kantor, dan reseller.
                 Setiap produk dipilih untuk memberi kesan hangat, rapi, dan siap menjadi buah tangan yang berkesan.
             </p>
             <div class="actions" style="margin-top: 20px;">
@@ -32,7 +32,7 @@
         </div>
         <aside class="hero-card">
             <p style="margin-top: 0; letter-spacing: 0.12em; text-transform: uppercase;">Pilihan Favorit</p>
-            <h2 style="font-size: 2rem; margin-bottom: 16px;">Ratisabilla Snack</h2>
+            <h2 style="font-size: 2rem; margin-bottom: 16px;">Rati Salsabila Snack</h2>
             <p style="line-height: 1.8;">
                 Nikmati snack tradisional dan kue kering khas Solo dalam kemasan yang siap untuk perjalanan, kunjungan keluarga, atau hampers kantor.
             </p>
@@ -86,7 +86,7 @@
                 <ol class="list-clean">
                     <li><strong>Pilih produk</strong><br><span class="muted">Buka katalog dan tentukan snack favorit yang ingin dibeli.</span></li>
                     <li><strong>Isi data transaksi</strong><br><span class="muted">Lengkapi nama, nomor WhatsApp, alamat, dan metode pembayaran.</span></li>
-                    <li><strong>Tunggu konfirmasi</strong><br><span class="muted">Tim Ratisabilla Snack akan menghubungi untuk memastikan pesanan dan pengiriman.</span></li>
+                    <li><strong>Tunggu konfirmasi</strong><br><span class="muted">Tim Rati Salsabila Snack akan menghubungi untuk memastikan pesanan dan pengiriman.</span></li>
                 </ol>
             </div>
             <div class="panel">

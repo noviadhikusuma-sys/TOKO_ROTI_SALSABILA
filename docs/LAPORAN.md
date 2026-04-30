@@ -2,7 +2,7 @@
 
 ## Judul
 
-Perancangan dan Implementasi Website Profil Usaha dan Katalog Produk Ratisabilla Snack Menggunakan Laravel
+Perancangan dan Implementasi Website Profil Usaha dan Katalog Produk Rati Salsabila Snack Menggunakan Laravel
 
 ## Identitas Mahasiswa
 
@@ -16,7 +16,7 @@ Perancangan dan Implementasi Website Profil Usaha dan Katalog Produk Ratisabilla
 
 ### 1.1 Latar Belakang
 
-Perkembangan teknologi mendorong pelaku usaha untuk memiliki media digital sebagai sarana promosi dan pelayanan pelanggan. Ratisabilla Snack merupakan usaha oleh-oleh khas Solo yang belum memiliki website, sehingga informasi produk masih disampaikan secara manual. Kondisi ini membuat jangkauan promosi menjadi terbatas dan pengelolaan data produk belum terorganisasi dengan baik.
+Perkembangan teknologi mendorong pelaku usaha untuk memiliki media digital sebagai sarana promosi dan pelayanan pelanggan. Rati Salsabila Snack merupakan usaha oleh-oleh khas Solo yang belum memiliki website, sehingga informasi produk masih disampaikan secara manual. Kondisi ini membuat jangkauan promosi menjadi terbatas dan pengelolaan data produk belum terorganisasi dengan baik.
 
 Berdasarkan kondisi tersebut, dibuatlah website profil usaha dan katalog produk menggunakan framework Laravel. Website ini diharapkan dapat membantu usaha dalam menampilkan informasi produk, memperkenalkan identitas usaha, serta menyediakan fitur pengelolaan data produk secara digital.
 
@@ -28,7 +28,7 @@ Berdasarkan kondisi tersebut, dibuatlah website profil usaha dan katalog produk 
 
 ### 1.3 Tujuan
 
-- Membuat website profil usaha untuk Ratisabilla Snack.
+- Membuat website profil usaha untuk Rati Salsabila Snack.
 - Menampilkan katalog produk secara online.
 - Mengimplementasikan fitur CRUD pada data produk.
 - Menyusun proyek yang siap dipresentasikan dan diunggah ke GitHub.
@@ -43,7 +43,7 @@ Berdasarkan kondisi tersebut, dibuatlah website profil usaha dan katalog produk 
 
 ### 2.1 Profil Singkat Usaha
 
-Ratisabilla Snack adalah usaha yang bergerak di bidang penjualan oleh-oleh dan camilan khas Solo. Produk yang ditawarkan meliputi berbagai snack tradisional dan kue kering yang cocok dijadikan buah tangan.
+Rati Salsabila Snack adalah usaha yang bergerak di bidang penjualan oleh-oleh dan camilan khas Solo. Produk yang ditawarkan meliputi berbagai snack tradisional dan kue kering yang cocok dijadikan buah tangan.
 
 ### 2.2 Kebutuhan Fungsional
 
@@ -142,7 +142,7 @@ Hasil pengujian:
 
 ### 6.1 Kesimpulan
 
-Website Ratisabilla Snack berhasil dibuat menggunakan framework Laravel sebagai solusi digital untuk usaha yang belum memiliki website. Sistem ini telah memenuhi kebutuhan dasar berupa profil usaha, katalog produk, fitur CRUD produk, dan form transaksi sederhana. Dengan demikian, proyek ini telah memenuhi tujuan tugas proyek individu.
+Website Rati Salsabila Snack berhasil dibuat menggunakan framework Laravel sebagai solusi digital untuk usaha yang belum memiliki website. Sistem ini telah memenuhi kebutuhan dasar berupa profil usaha, katalog produk, fitur CRUD produk, dan form transaksi sederhana. Dengan demikian, proyek ini telah memenuhi tujuan tugas proyek individu.
 
 ### 6.2 Saran
 

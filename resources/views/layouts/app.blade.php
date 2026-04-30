@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>{{ $title ?? 'Ratisabilla Snack' }}</title>
+    <title>{{ $title ?? 'Rati Salsabila Snack' }}</title>
     <link href="https://fonts.googleapis.com/css2?family=Lora:wght@700&family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
     <style>
         :root {
@@ -188,7 +188,7 @@
         <div class="eyebrow">Snack khas Solo untuk oleh-oleh, hampers, dan pesanan keluarga</div>
         <nav class="nav">
             <a class="brand" href="{{ route('home') }}">
-                Ratisabilla Snack
+                Rati Salsabila Snack
                 <small>Oleh-oleh Solo</small>
             </a>
             <div class="nav-links">
@@ -216,7 +216,7 @@
     </main>
 
     <footer class="container">
-        <p>Ratisabilla Snack menghadirkan katalog camilan khas Solo, pemesanan praktis, dan layanan oleh-oleh yang siap dikirim atau diambil langsung di toko.</p>
+        <p>Rati Salsabila Snack menghadirkan katalog camilan khas Solo, pemesanan praktis, dan layanan oleh-oleh yang siap dikirim atau diambil langsung di toko.</p>
     </footer>
 </body>
 </html>

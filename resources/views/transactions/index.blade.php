@@ -1,4 +1,4 @@
-@extends('layouts.app', ['title' => 'Transaksi Pelanggan | Ratisabilla Snack'])
+@extends('layouts.app', ['title' => 'Transaksi Pelanggan | Rati Salsabila Snack'])
 
 @section('content')
     <section class="section">

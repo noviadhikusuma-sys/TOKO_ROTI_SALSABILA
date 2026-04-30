@@ -1,10 +1,10 @@
 # Toko Roti Salsabila
 
-Website profil usaha dan katalog produk untuk UMKM oleh-oleh Solo "Ratisabilla Snack" yang belum memiliki website. Proyek ini dibuat sebagai tugas proyek individu menggunakan framework Laravel.
+Website profil usaha dan katalog produk untuk UMKM oleh-oleh Solo "Rati Salsabila Snack" yang belum memiliki website. Proyek ini dibuat sebagai tugas proyek individu menggunakan framework Laravel.
 
 ## Identitas Proyek
 
-- Nama usaha: Ratisabilla Snack
+- Nama usaha: Rati Salsabila Snack
 - Jenis usaha: Oleh-oleh dan camilan khas Solo
 - Framework: Laravel 12
 - Bahasa pemrograman: PHP 8.2+
@@ -13,7 +13,7 @@ Website profil usaha dan katalog produk untuk UMKM oleh-oleh Solo "Ratisabilla S
 
 ## Latar Belakang
 
-Ratisabilla Snack adalah usaha oleh-oleh Solo yang belum memiliki website. Informasi produk dan pemesanan masih dilakukan secara manual. Website ini dibuat untuk membantu promosi usaha, menampilkan katalog produk, serta mengelola data produk dan transaksi secara lebih rapi.
+Rati Salsabila Snack adalah usaha oleh-oleh Solo yang belum memiliki website. Informasi produk dan pemesanan masih dilakukan secara manual. Website ini dibuat untuk membantu promosi usaha, menampilkan katalog produk, serta mengelola data produk dan transaksi secara lebih rapi.
 
 ## Fitur Utama
 
@@ -27,7 +27,7 @@ Ratisabilla Snack adalah usaha oleh-oleh Solo yang belum memiliki website. Infor
 ## Bukti Pemenuhan Tugas
 
 1. Memilih satu usaha yang belum punya website
-   Usaha yang dipilih adalah Ratisabilla Snack, UMKM oleh-oleh Solo.
+   Usaha yang dipilih adalah Rati Salsabila Snack, UMKM oleh-oleh Solo.
 2. Membuat PRD
    Dokumen PRD tersedia di [docs/PRD.md](docs/PRD.md).
 3. Membuat website dengan framework

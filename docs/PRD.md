@@ -1,10 +1,10 @@
 # Product Requirement Document
 
 ## Judul Proyek
-Website Profil Usaha dan Katalog Produk untuk Oleh-oleh Solo Ratisabilla Snack
+Website Profil Usaha dan Katalog Produk untuk Oleh-oleh Solo Rati Salsabila Snack
 
 ## Latar Belakang
-Ratisabilla Snack adalah usaha oleh-oleh Solo yang belum memiliki website. Saat ini promosi dan informasi produk masih bergantung pada komunikasi manual. Website dibutuhkan untuk memperkuat identitas usaha, menampilkan katalog produk, dan mendukung pengelolaan data produk secara digital.
+Rati Salsabila Snack adalah usaha oleh-oleh Solo yang belum memiliki website. Saat ini promosi dan informasi produk masih bergantung pada komunikasi manual. Website dibutuhkan untuk memperkuat identitas usaha, menampilkan katalog produk, dan mendukung pengelolaan data produk secara digital.
 
 ## Tujuan
 1. Menyediakan website profil usaha yang menarik dan mudah dipahami.
