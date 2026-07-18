@@ -216,8 +216,6 @@
             <div class="nav-links">
                 <a class="pill" href="{{ route('home') }}">Beranda</a>
                 <a class="pill" href="{{ route('catalog.index') }}">Katalog</a>
-                <a class="pill" href="{{ route('transactions.index') }}">Transaksi</a>
-                <a class="pill ghost" href="{{ route('products.index') }}">Dashboard Produk</a>
                 <a class="pill primary" href="{{ route('transactions.create') }}">Pesan Sekarang</a>
             </div>
         </nav>
