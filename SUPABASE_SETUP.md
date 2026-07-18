@@ -1,195 +1,79 @@
-# 🔗 Integrasi Supabase dengan Laravel
+# Integrasi Supabase dengan Laravel
 
-Panduan lengkap mengintegrasikan Supabase sebagai database backend untuk aplikasi Toko Roti Salsabila.
+Panduan ini menyiapkan Supabase PostgreSQL sebagai database untuk aplikasi Toko Roti Salsabila.
 
-## 📋 Persyaratan
+## Yang sudah disiapkan di proyek
 
-- Laravel 12.0
-- PHP 8.2+
-- Akun Supabase (gratis di https://supabase.com)
+- Laravel memakai koneksi `pgsql` dengan `sslmode=require`.
+- `pdo_pgsql` dan `pgsql` sudah diaktifkan di PHP Laragon.
+- `SupabaseServiceProvider` sudah terdaftar.
+- `App\Services\SupabaseService` memakai REST API Supabase lewat HTTP client bawaan Laravel.
+- SQL schema tersedia di `database/supabase/toko_roti_salsabila.sql`.
 
-## 🚀 Langkah-Langkah Setup
+## 1. Buat project Supabase
 
-### 1. Buat Proyek Supabase
+1. Buka `https://supabase.com/dashboard`.
+2. Klik `New project`.
+3. Isi nama project, misalnya `toko-roti-salsabila`.
+4. Simpan database password karena dipakai untuk koneksi Laravel.
+5. Pilih region terdekat, misalnya Singapore.
 
-1. Kunjungi [Supabase Dashboard](https://app.supabase.com)
-2. Klik "New Project"
-3. Isi informasi proyek:
-   - **Name**: `toko-roti-salsabila`
-   - **Password**: Buat password yang kuat (simpan baik-baik)
-   - **Region**: Pilih yang terdekat (Asia - Singapore atau Tokyo)
-4. Tunggu proyek dibuat (±2 menit)
+## 2. Ambil credential
 
-### 2. Dapatkan Credentials
+Di dashboard Supabase:
 
-Setelah proyek dibuat, buka tab **Settings** → **API**:
+- `Project Settings > API`
+  - `Project URL` untuk `SUPABASE_URL`
+  - `anon public` untuk `SUPABASE_KEY`
+  - `service_role` untuk `SUPABASE_SECRET`
+- `Project Settings > Database > Connection string`
+  - Gunakan `Session pooler` untuk `DB_URL`
+  - Ganti placeholder password dengan database password project
 
-```
-SUPABASE_URL: Lihat di bagian "Project URL"
-SUPABASE_KEY: Lihat di bagian "anon public" (gunakan untuk client-side)
-SUPABASE_SECRET: Lihat di bagian "service_role" (gunakan untuk server-side)
-```
+## 3. Isi file `.env`
 
-### 3. Install Package
-
-```bash
-composer require supabase/supabase-php
-```
-
-### 4. Update File Environment
-
-Edit `.env` dan tambahkan:
+Contoh format:
 
 ```env
-# Database Configuration
 DB_CONNECTION=pgsql
-DB_HOST=your-project.supabase.co
-DB_PORT=5432
-DB_DATABASE=postgres
-DB_USERNAME=postgres
-DB_PASSWORD=your_password_here
+DB_URL=postgres://postgres.your-project-ref:your_database_password@aws-0-ap-southeast-1.pooler.supabase.com:5432/postgres
+DB_SCHEMA=public
+DB_SSLMODE=require
 
-# Supabase Configuration
-SUPABASE_URL=https://your-project.supabase.co
-SUPABASE_KEY=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9...
-SUPABASE_SECRET=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9...
+SUPABASE_URL=https://your-project-ref.supabase.co
+SUPABASE_KEY=your_supabase_anon_key
+SUPABASE_SECRET=your_supabase_service_role_key
+SUPABASE_SCHEMA=public
 ```
 
-### 5. Register Service Provider
+Jangan commit `.env` karena berisi credential rahasia.
 
-Edit `config/app.php`, tambahkan di array `'providers'`:
+## 4. Buat tabel di Supabase
 
-```php
-'providers' => [
-    // ...
-    App\Providers\SupabaseServiceProvider::class,
-],
-```
-
-### 6. Test Koneksi
+Pilihan utama, jalankan migration Laravel:
 
 ```bash
-php artisan tinker
+C:\laragon\bin\php\php-8.3.30-Win32-vs16-x64\php.exe artisan migrate --seed
 ```
 
-Di dalam tinker, jalankan:
+Alternatif, buka `SQL Editor` di Supabase lalu jalankan isi file:
 
-```php
-$supabase = app('App\Services\SupabaseService');
-$result = $supabase->getAll('users'); // Sesuaikan dengan nama tabel Anda
-dd($result);
+```text
+database/supabase/toko_roti_salsabila.sql
 ```
 
-## 💾 Membuat Tabel di Supabase
-
-### Opsi 1: Melalui Dashboard Supabase
-
-1. Buka Supabase Dashboard
-2. Klik "SQL Editor" atau "Table Editor"
-3. Klik "New Table"
-4. Buat tabel sesuai kebutuhan
-
-### Opsi 2: Menggunakan Migration Laravel
+## 5. Cek koneksi
 
 ```bash
-php artisan make:migration create_products_table
+C:\laragon\bin\php\php-8.3.30-Win32-vs16-x64\php.exe artisan migrate:status
+C:\laragon\bin\php\php-8.3.30-Win32-vs16-x64\php.exe artisan test
 ```
 
-Edit file migration, kemudian jalankan:
+Jika memakai Laragon server, restart Laragon setelah mengaktifkan ekstensi PostgreSQL.
 
-```bash
-php artisan migrate
-```
+## Catatan keamanan
 
-**Catatan**: Supabase PostgreSQL otomatis tersinkronisasi dengan migration Laravel.
-
-## 📝 Contoh Penggunaan
-
-### Create (Insert)
-
-```php
-use App\Services\SupabaseService;
-
-$supabase = app(SupabaseService::class);
-
-$data = [
-    'name' => 'Roti Tawar',
-    'price' => 15000,
-    'stock' => 50
-];
-
-$result = $supabase->insert('products', $data);
-```
-
-### Read (Fetch)
-
-```php
-// Ambil semua data
-$products = $supabase->getAll('products');
-
-// Ambil berdasarkan ID
-$product = $supabase->getById('products', 1);
-
-// Query custom
-$result = $supabase->from('products')
-    ->select('*')
-    ->gte('price', 10000)
-    ->execute();
-```
-
-### Update
-
-```php
-$data = ['price' => 16000];
-$supabase->update('products', $data, 'id', 1);
-```
-
-### Delete
-
-```php
-$supabase->delete('products', 'id', 1);
-```
-
-## 🔐 Keamanan
-
-### Best Practices
-
-1. **Jangan pernah commit credentials** ke Git
-   - Gunakan `.env` dan tambahkan ke `.gitignore`
-
-2. **Gunakan Row Level Security (RLS)** di Supabase
-   - Klik tabel → "Authentication" → Enable RLS
-
-3. **Pisahkan Keys**
-   - `SUPABASE_KEY`: Untuk public/client-side
-   - `SUPABASE_SECRET`: Untuk server-side only
-
-4. **Rotate Keys Secara Berkala**
-   - Settings → API → Regenerate Keys
-
-## 🔗 Dokumentasi Resmi
-
-- [Supabase Documentation](https://supabase.com/docs)
-- [Laravel Database Documentation](https://laravel.com/docs/database)
-- [Supabase PHP Client](https://github.com/supabase-community/supabase-php)
-
-## ❓ Troubleshooting
-
-### Error: "Connection refused"
-- Pastikan IP address sudah di-whitelist di Supabase
-- Settings → Database → Connections pooling
-
-### Error: "Invalid API Key"
-- Periksa kembali SUPABASE_KEY dan SUPABASE_URL di .env
-- Pastikan key belum expired
-
-### PostgreSQL Port 5432 Error
-- Supabase menggunakan port 5432 (default PostgreSQL)
-- Pastikan firewall tidak memblokir port ini
-
-## 📞 Support
-
-Jika mengalami masalah:
-1. Cek [Supabase Status](https://status.supabase.com)
-2. Lihat logs di Supabase Dashboard
-3. Tanya di [Supabase Community](https://discord.supabase.com)
+- Gunakan `SUPABASE_SECRET` hanya di server Laravel.
+- Jangan taruh service role key di JavaScript atau Blade.
+- Aktifkan Row Level Security jika tabel dibuka untuk akses client-side langsung.
+- Rotate key Supabase jika credential pernah tersebar.
